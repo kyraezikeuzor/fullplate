@@ -9,15 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var descriptionOne: UILabel!
+    @IBOutlet weak var buttonOne: UIButton!
     
     @IBOutlet weak var descriptionTwo: UILabel!
+    @IBOutlet weak var buttonTwo: UIButton!
     
     @IBOutlet weak var descriptionThree: UILabel!
+    @IBOutlet weak var buttonThree: UIButton!
     
     @IBOutlet weak var descriptionFour: UILabel!
+    @IBOutlet weak var buttonFour: UIView!
     
     @IBOutlet weak var descriptionFive: UILabel!
+    @IBOutlet weak var buttonFive: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,18 +42,23 @@ class ViewController: UIViewController {
     var counter5 = 1
 
     
-    
     @IBAction func buttonOneTapped(_ sender: Any) {
         if counter1 % 2 == 1
         {
             descriptionOne.isHidden = false
+            
+            buttonOne.setBackgroundImage(UIImage(named: "chevron.down"), for: .normal)
         }
         else if counter1 % 2 == 0
         {
             descriptionOne.isHidden = true
+            
+            buttonOne.setBackgroundImage(UIImage(named: "chevron.right"), for: .normal)
         }
         counter1 += 1
     }
+    
+    
     
     
     @IBAction func buttonTwoTapped(_ sender: Any) {

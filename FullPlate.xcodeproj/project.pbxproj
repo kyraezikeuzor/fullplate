@@ -17,6 +17,7 @@
 		BD2CBB89289AB9BC003E56B4 /* FullPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CBB88289AB9BC003E56B4 /* FullPlateTests.swift */; };
 		BD2CBB93289AB9BC003E56B4 /* FullPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CBB92289AB9BC003E56B4 /* FullPlateUITests.swift */; };
 		BD2CBB95289AB9BC003E56B4 /* FullPlateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CBB94289AB9BC003E56B4 /* FullPlateUITestsLaunchTests.swift */; };
+		BD8CA81C289C921A00C76B6E /* VeganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CA81B289C921900C76B6E /* VeganViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BD2CBB8E289AB9BC003E56B4 /* FullPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2CBB92289AB9BC003E56B4 /* FullPlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPlateUITests.swift; sourceTree = "<group>"; };
 		BD2CBB94289AB9BC003E56B4 /* FullPlateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPlateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD8CA81B289C921900C76B6E /* VeganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				BD2CBB70289AB9BA003E56B4 /* SceneDelegate.swift */,
 				BD2CBB72289AB9BA003E56B4 /* ViewController.swift */,
 				BD2CBB74289AB9BA003E56B4 /* Main.storyboard */,
+				BD8CA81B289C921900C76B6E /* VeganViewController.swift */,
 				BD2CBB7A289AB9BC003E56B4 /* Assets.xcassets */,
 				BD2CBB7C289AB9BC003E56B4 /* LaunchScreen.storyboard */,
 				BD2CBB7F289AB9BC003E56B4 /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				BD2CBB73289AB9BA003E56B4 /* ViewController.swift in Sources */,
 				BD2CBB6F289AB9BA003E56B4 /* AppDelegate.swift in Sources */,
+				BD8CA81C289C921A00C76B6E /* VeganViewController.swift in Sources */,
 				BD2CBB71289AB9BA003E56B4 /* SceneDelegate.swift in Sources */,
 				BD2CBB79289AB9BA003E56B4 /* FullPlate.xcdatamodeld in Sources */,
 			);
