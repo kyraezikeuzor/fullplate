@@ -19,6 +19,14 @@ class VeganViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.noglu.fr/new-york/")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func Restaurant2Tapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://lebotaniste.us/")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func Restaurant3Tapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "http://www.toadstylebk.com/")! as URL, options: [:], completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
