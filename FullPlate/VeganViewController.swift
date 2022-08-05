@@ -27,6 +27,8 @@ class VeganViewController: UIViewController {
         UIApplication.shared.open(URL(string: "http://www.toadstylebk.com/")! as URL, options: [:], completionHandler: nil)
     }
     
+   
+    
     /*
     // MARK: - Navigation
 
